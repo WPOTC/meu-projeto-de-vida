@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    font-family: 'Ubuntu', 'sans-serif';
+    
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff9ed; 
+    color: #333;
+    margin: 0 auto;
+    padding: 0 auto;
+    
+}
+
+
+header {
+    background-color: #D6E6FF; 
+    padding: 40px 20px;
+    max-width: 100%;
+    text-align: center;
+    font-size: block;
+}
+
+header h1 a{
+    text-decoration: none;
+    margin: 0;
+    font-size: 2em;
+    color: #222;
+}
+
+header h2 {
+    margin: 10px 0;
+    font-size: 2em;
+    color: #444;
+}
+
+header p {
+    font-style: 'italic', 'sans-serif';
+    font-size: 1.2em;
+    color: #555;
+}
+
+
+nav {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 40px;
+    transition: all 0.3s linear;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.3em;
+    color: #02199b;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 10px;
+    
+}
+
+nav ul li:hover {
+    transform: translateY(-4px);
+    text-shadow: 0 0 10px #057effa4;
+    
+}
+
+main{
+    font-size: 20px;
+}
+
+
+.main-index {
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.main-index section {
+    background-color: rgb(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s ease;
+    
+}
+
+.main-index section:hover{
+    transform: scale(1.2);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgb(90, 90, 90);
+}
+
+
+
+
+.main-about{
+    margin: 10px;
+    
+}
+
+
+.main-about details{
+    
+    padding: 5px;
+    
+}
+
+.main-about details summary{
+    
+    max-width: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    transition: all 0.3s linear;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 255, 255, 0.3);
+    
+}
+
+.main-about details summary:hover{
+    background-color: white;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.3);
+}
+
+
+
+.p-about
+{
+    background-color: #b4bdee7c;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.main-vision{
+    margin: 10px;
+    
+}
+
+.main-vision details{
+    padding: 20px;
+}
+
+.main-vision details summary{
+    
+    max-width: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    transition: all 0.3s linear;
+    background-color: rgb(255, 255, 255, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-vision details summary:hover{
+    background-color: white;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.3);
+}
+
+.p-vision{
+    background-color: #b4bdee7c;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.main-plan{
+    padding: 20px;
+}
+
+.main-plan details{
+    padding: 5px;
+}
+
+.main-plan details summary{
+    
+    max-width: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    transition: all 0.3s linear;
+    background-color: rgb(255, 255, 255, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+
+.main-plan details summary:hover{
+    background-color: white;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.3);
+}
+
+.section-plan{
+    background-color: rgb(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s ease;
+}
+
+.section-plan:hover{
+    transform: scale(1.05);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgb(90, 90, 90);
+}
+
+.p-plan{
+    background-color: #b4bdee7c;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.main-recurse{
+    padding: 10px;
+}
+
+.main-recurse details{
+    padding: 20px;
+}
+
+.main-recurse details summary{
+    max-width: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    transition: all 0.3s linear;
+    background-color: rgb(255, 255, 255, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-recurse details summary:hover{
+    background-color: white;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.3);
+}
+
+.p-recurse{
+    background-color: #b4bdee7c;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.footer-index {
+    background-color: #D6E6FF;
+   padding-top: 15px;
+   padding-bottom: 15px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    font-size: 1em;
+    text-align: center;
+    position: absolute;
+    bottom: 0 ;
+    width: 100%;
+
+}
+
+
+.footer-about{
+    background-color: #D6E6FF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+     border-top-left-radius: 40px;
+     border-top-right-radius: 40px;
+     font-size: 1em;
+     text-align: center;
+     position: relative;
+     bottom: 0 ;
+     width: 100%;
+     box-shadow: 0 10px #D6E6FF;
+}
+
+.footer-vision{
+
+    background-color: #D6E6FF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+     border-top-left-radius: 40px;
+     border-top-right-radius: 40px;
+     font-size: 1em;
+     text-align: center;
+     position: relative;
+     bottom: 0 ;
+     width: 100%;
+
+}
+
+.footer-plans{
+    background-color: #D6E6FF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+     border-top-left-radius: 40px;
+     border-top-right-radius: 40px;
+     font-size: 1em;
+     text-align: center;
+     position: relative;
+     bottom: 0 ;
+     width: 100%;
+}
+
+.footer-recurse{
+    background-color: #D6E6FF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+     border-top-left-radius: 40px;
+     border-top-right-radius: 40px;
+     font-size: 1em;
+     text-align: center;
+     position: relative;
+     bottom: 0 ;
+     width: 100%;
+}
